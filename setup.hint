@@ -1,4 +1,4 @@
 category: Perl Database
-requires: cygwin perl
+requires: cygwin perl perl-libwin32
 sdesc: "Perl Database Interface module"
 ldesc: "Perl Database Interface module"
