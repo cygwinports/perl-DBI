@@ -24,15 +24,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-DBI-1.58-X-src.tar.bz2
+  unpack perl-DBI-1.59-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./DBI-1.58-X.cygport all
+  cygport ./DBI-1.59-X.cygport all
 
 This will create:
-  /usr/src/perl-DBI-1.58-X-src.tar.bz2
-  /usr/src/perl-DBI-1.58-X.tar.bz2
+  /usr/src/perl-DBI-1.59-X-src.tar.bz2
+  /usr/src/perl-DBI-1.59-X.tar.bz2
 
 -------------------------------------------
 
@@ -99,9 +99,9 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/dbivport.h
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/libDBI.dll.a
   /usr/lib/perl5/vendor_perl/5.8/cygwin/goferperf.pl
-  /usr/share/doc/Cygwin/perl-DBI-1.58.README
-  /usr/share/doc/perl-DBI-1.58/Changes
-  /usr/share/doc/perl-DBI-1.58/README
+  /usr/share/doc/Cygwin/perl-DBI-1.59.README
+  /usr/share/doc/perl-DBI-1.59/Changes
+  /usr/share/doc/perl-DBI-1.59/README
   /usr/share/man/man1/dbilogstrip.1.gz
   /usr/share/man/man1/dbiprof.1.gz
   /usr/share/man/man1/dbiproxy.1.gz
@@ -150,6 +150,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.59-1 -----
+Version bump.
 
 ----- version 1.58-1 -----
 Version bump.
