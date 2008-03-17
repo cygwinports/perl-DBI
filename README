@@ -3,17 +3,15 @@ perl-DBI
 The Perl Database Interface module.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  perl-5.8.7-5
-  perl-libwin32-0.26-1
+  cygwin-1.5.25-7
+  perl-5.10.0-3
+  perl-libwin32-0.28-2
 
 Build requirements:
-  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.11-1
+  cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.7-5
 
 Canonical homepage:
   http://search.cpan.org/~timb/DBI/
@@ -24,84 +22,85 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-DBI-1.59-X-src.tar.bz2
+  unpack perl-DBI-1.602-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./DBI-1.59-X.cygport all
+  cygport ./DBI-1.602-X.cygport all
 
 This will create:
-  /usr/src/perl-DBI-1.59-X-src.tar.bz2
-  /usr/src/perl-DBI-1.59-X.tar.bz2
+  /usr/src/perl-DBI-1.602-X-src.tar.bz2
+  /usr/src/perl-DBI-1.602-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-DBI.sh
   /usr/bin/dbilogstrip
   /usr/bin/dbiprof
   /usr/bin/dbiproxy
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Bundle/DBI.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/DBM.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/ExampleP.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/File.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Gofer.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Gofer/Policy/Base.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Gofer/Policy/classic.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Gofer/Policy/pedantic.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Gofer/Policy/rush.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Gofer/Transport/Base.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Gofer/Transport/null.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Gofer/Transport/pipeone.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Gofer/Transport/stream.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/NullP.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Proxy.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/Sponge.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Changes.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Const/GetInfo/ANSI.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Const/GetInfo/ODBC.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Const/GetInfoReturn.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Const/GetInfoType.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/DBD.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/DBD/Metadata.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/FAQ.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Gofer/Execute.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Gofer/Request.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Gofer/Response.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Gofer/Transport/Base.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Gofer/Transport/pipeone.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Gofer/Transport/stream.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Profile.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/ProfileData.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/ProfileDumper.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/ProfileDumper/Apache.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/ProfileSubs.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/ProxyServer.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/PurePerl.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Roadmap.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/SQL/Nano.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/Util/_accessor.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBI/W32ODBC.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Roadmap.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/TASKS.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Win32/DBIODBC.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/.packlist
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/DBI.bs
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/DBI.dll
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/DBIXS.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/Driver.xst
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/Driver_xst.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/dbd_xsh.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/dbi_sql.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/dbipport.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/dbivport.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBI/libDBI.dll.a
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/goferperf.pl
-  /usr/share/doc/Cygwin/perl-DBI-1.59.README
-  /usr/share/doc/perl-DBI-1.59/Changes
-  /usr/share/doc/perl-DBI-1.59/README
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Bundle/DBI.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/DBM.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/ExampleP.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/File.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Gofer.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Gofer/Policy/Base.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Gofer/Policy/classic.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Gofer/Policy/pedantic.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Gofer/Policy/rush.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Gofer/Transport/Base.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Gofer/Transport/null.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Gofer/Transport/pipeone.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Gofer/Transport/stream.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/NullP.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Proxy.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/Sponge.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Changes.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Const/GetInfo/ANSI.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Const/GetInfo/ODBC.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Const/GetInfoReturn.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Const/GetInfoType.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/DBD.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/DBD/Metadata.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/FAQ.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Gofer/Execute.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Gofer/Request.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Gofer/Response.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Gofer/Serializer/Base.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Gofer/Serializer/DataDumper.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Gofer/Serializer/Storable.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Gofer/Transport/Base.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Gofer/Transport/pipeone.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Gofer/Transport/stream.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Profile.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/ProfileData.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/ProfileDumper.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/ProfileDumper/Apache.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/ProfileSubs.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/ProxyServer.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/PurePerl.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Roadmap.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/SQL/Nano.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Util/CacheMemory.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/Util/_accessor.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBI/W32ODBC.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Roadmap.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/TASKS.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Win32/DBIODBC.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/DBI.dll
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/DBIXS.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/Driver.xst
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/Driver_xst.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/dbd_xsh.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/dbi_sql.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/dbipport.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/dbivport.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/dbixs_rev.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/dbixs_rev.pl
+  /usr/share/doc/perl-DBI-1.602/Changes
+  /usr/share/doc/perl-DBI-1.602/README
   /usr/share/man/man1/dbilogstrip.1.gz
   /usr/share/man/man1/dbiprof.1.gz
   /usr/share/man/man1/dbiproxy.1.gz
@@ -130,6 +129,9 @@ Files included in the binary package:
   /usr/share/man/man3/DBI.Gofer.Execute.3pm.gz
   /usr/share/man/man3/DBI.Gofer.Request.3pm.gz
   /usr/share/man/man3/DBI.Gofer.Response.3pm.gz
+  /usr/share/man/man3/DBI.Gofer.Serializer.Base.3pm.gz
+  /usr/share/man/man3/DBI.Gofer.Serializer.DataDumper.3pm.gz
+  /usr/share/man/man3/DBI.Gofer.Serializer.Storable.3pm.gz
   /usr/share/man/man3/DBI.Gofer.Transport.Base.3pm.gz
   /usr/share/man/man3/DBI.Gofer.Transport.pipeone.3pm.gz
   /usr/share/man/man3/DBI.Gofer.Transport.stream.3pm.gz
@@ -141,15 +143,18 @@ Files included in the binary package:
   /usr/share/man/man3/DBI.ProxyServer.3pm.gz
   /usr/share/man/man3/DBI.PurePerl.3pm.gz
   /usr/share/man/man3/DBI.SQL.Nano.3pm.gz
+  /usr/share/man/man3/DBI.Util.CacheMemory.3pm.gz
   /usr/share/man/man3/DBI.W32ODBC.3pm.gz
   /usr/share/man/man3/Roadmap.3pm.gz
   /usr/share/man/man3/TASKS.3pm.gz
   /usr/share/man/man3/Win32.DBIODBC.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/DBI.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.602-1 -----
+Version bump, built for perl-5.10.
 
 ----- version 1.59-1 -----
 Version bump.
