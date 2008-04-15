@@ -22,15 +22,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-DBI-1.602-X-src.tar.bz2
+  unpack perl-DBI-1.604-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./DBI-1.602-X.cygport all
+  cygport ./DBI-1.604-X.cygport all
 
 This will create:
-  /usr/src/perl-DBI-1.602-X-src.tar.bz2
-  /usr/src/perl-DBI-1.602-X.tar.bz2
+  /usr/src/perl-DBI-1.604-X-src.tar.bz2
+  /usr/src/perl-DBI-1.604-X.tar.bz2
 
 -------------------------------------------
 
@@ -99,8 +99,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/dbivport.h
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBI/dbixs_rev.h
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/dbixs_rev.pl
-  /usr/share/doc/perl-DBI-1.602/Changes
-  /usr/share/doc/perl-DBI-1.602/README
+  /usr/share/doc/perl-DBI-1.604/Changes
+  /usr/share/doc/perl-DBI-1.604/README
   /usr/share/man/man1/dbilogstrip.1.gz
   /usr/share/man/man1/dbiprof.1.gz
   /usr/share/man/man1/dbiproxy.1.gz
@@ -153,7 +153,7 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.602-1 -----
+----- version 1.604-1 -----
 Version bump, built for perl-5.10.
 
 ----- version 1.59-1 -----
