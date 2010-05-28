@@ -1,4 +1,4 @@
 category: Perl Database
-requires: perl perl-libwin32
+requires: libgcc1 libssp0 perl
 sdesc: "Perl Database Interface module"
 ldesc: "Perl Database Interface module"
