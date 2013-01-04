@@ -1,4 +1,0 @@
-category: Perl Database
-requires: libgcc1 libssp0 perl
-sdesc: "Perl Database Interface module"
-ldesc: "Perl Database Interface module"
